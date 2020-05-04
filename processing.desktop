@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Processing
+GenericName=Coding
+Comment=Art through code
+Exec=/home/jlieberg/Public/processing-3.5.4/processing %F
+Icon=/home/jlieberg/Public/processing-3.5.4/lib/icons/pde-32.png
