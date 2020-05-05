@@ -9,7 +9,7 @@ Creates diagonal lines of random length colored based on a source image. Image c
 
 ### Color Lines
 
-Creates lines of random length colored randomly from an array of colors.
+Creates lines sized randomly according to 2 * fibonacci,colored randomly from an array of colors with a Gamma cut out of the center
 ![output](/color_lines/output.png)
 
 
