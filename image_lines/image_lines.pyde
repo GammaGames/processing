@@ -16,7 +16,6 @@ def setup():
 
     
 def draw():    
-    # image(img, 0, 0, width, height)
     background(0, 0, 0)
     
     x_offset = img.width * -1
@@ -33,4 +32,11 @@ def draw():
             y_offset += length + 10
             cur_x_offset += length / 2 + 5
         x_offset += 12
-    saveFrame("output.png")
+    
+    
+def keyPressed():
+    k = str(key)
+    if k == " ":
+        redraw()
+    elif k == "s":
+        saveFrame("output.png")
